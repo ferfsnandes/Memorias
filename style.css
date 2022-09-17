@@ -1,7 +1,11 @@
+/*Complete css file for both functional and only front end application. Some classes may or may not be used because of that.*/
+
 html, body {
   height: 100%;
   width: 100%;
-  margin-left: 15px;
+}
+
+.centerText {
   text-align: center;
 }
 
@@ -59,4 +63,19 @@ html, body {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity: 2;}
+}
+/*container for the playing grid*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
