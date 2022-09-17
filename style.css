@@ -21,14 +21,14 @@ html, body {
 }
 
 /*button for popping popup*/
-.popup {
+.popUp {
   position: relative;
   display: inline-block;
   cursor: pointer;
 }
 
 /*popup information*/
-.popup .popuptext {
+.popUp .popUpText {
   visibility: hidden;
   width: 160px;
   background-color: #111;
@@ -43,7 +43,8 @@ html, body {
   margin-left: -80px;
 }
 
-.popup .show {
+/*shows the popup information*/
+.popUp .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s
@@ -52,10 +53,10 @@ html, body {
 
 @-webkit-keyframes fadeIn {
   from {opacity: 0;}
-  to {opacity: 1;}
+  to {opacity: 2;}
 }
 
 @keyframes fadeIn {
   from {opacity: 0;}
-  to {opacity:1 ;}
+  to {opacity: 2;}
 }
