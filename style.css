@@ -57,12 +57,12 @@ html, body {
 
 @-webkit-keyframes fadeIn {
   from {opacity: 0;}
-  to {opacity: 2;}
+  to {opacity: 1;}
 }
 
 @keyframes fadeIn {
   from {opacity: 0;}
-  to {opacity: 2;}
+  to {opacity: 1;}
 }
 /*container for the playing grid*/
 .grid-container {
